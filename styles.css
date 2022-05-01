@@ -90,8 +90,8 @@ nav a:hover{
 section > h2 {
   text-align: center;
   margin-bottom: 5%;
-  color: #3b4def;
-  letter-spacing: 4px;
+  color: #3a4ad9;
+  letter-spacing: 3px;
   text-transform: uppercase;
   font-weight: bolder;
   font-size: 20px;
@@ -119,6 +119,11 @@ section > h2 {
   font-size: 15px;
 }
 
+/* video */
+#video {
+  margin: auto;
+  width: 50%;
+}
 
 /* team */
 
@@ -135,12 +140,13 @@ section > h2 {
   width: 100%;
   display: block;
   margin: auto;
-  outline: 1px solid rgb(221, 221, 221);
-  border-radius: 1%;
+  border-radius: 3%;
 }
 
-.column h1 {
+.column h1, a {
   font-size: 18px;
+  color: black;
+  text-decoration: none;
 }
 
 .column p {
@@ -174,8 +180,19 @@ section > h2 {
   width: 75%;
 }
 
-/* video */
-#video {
-  margin: auto;
-  width: 50%;
+/* footer */
+#footer {
+  width: 71%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0px 20px 0px;
+}
+
+#microsoft img {
+  width: 15%;
+  float: right;
+}
+
+#informatics img {
+  width: 15%;
 }
